@@ -1,12 +1,12 @@
 {
   "briefing": {
     "weekLabel": "Week 21 · 2026",
-    "headline": "「血糖値スパイク」関連の検索が前週比+38%。フェムテック文脈との接続で先行余地あり。",
-    "summary": "Levels社が国内認知を急速に伸ばしている一方、女性ホルモン×血糖値の切り口は依然として空白地帯。今週はFemtechチャンネルで仮説検証コンテンツを2本走らせ、反応次第でMainへ展開を推奨。",
+    "headline": "「PMS × 血糖値」検索が前週比+47%。SympaFitの差別化軸が刺さるタイミング。",
+    "summary": "Levels / Nutrisense はアスリートと一般生活者の文脈で先行しているが、女性ホルモン × 血糖変動の領域はSympaFitが東洋大研究を背景に独占できる空白地帯。今週はfor Femtechチャンネルで仮説検証2本、for Athleteで『ハイパフォーマンスエリア × トレラン本番補給』、Lifestyleで『夜中に目が覚める=夜間低血糖』のSEO記事を投下するのが推奨。",
     "recommendedActions": [
-      "Femtechチャンネルで「PMSと血糖値」の解説リール(60秒)を試験投稿",
-      "Athletesチャンネルで「トレ前後のCGMデータ解説」連載をスタート",
-      "オウンドメディアに『更年期×血糖変動』のSEO記事(2,500字)を投下"
+      "for Femtech: 『PMS期に甘いものが止まらない理由』Instagram Reel(60秒)を試験投稿",
+      "for Athlete: 『ハイパフォーマンスエリアを外さない補給』連載をTikTokで開始",
+      "Lifestyle: 『夜間低血糖と中途覚醒』のSEO記事(2,800字)をオウンドメディアへ"
     ]
   },
   "kpis": [
@@ -16,38 +16,46 @@
     { "label": "AI search citations", "value": "62", "delta": "+18", "trend": "up" }
   ],
   "trends": [
-    { "keyword": "血糖値スパイク 女性", "volume": "8.2k/月", "growth": "+38%", "competition": "low" },
-    { "keyword": "CGM 市民ランナー", "volume": "3.1k/月", "growth": "+24%", "competition": "medium" },
-    { "keyword": "PMS 食事", "volume": "12.4k/月", "growth": "+9%", "competition": "high" },
-    { "keyword": "更年期 血糖", "volume": "1.8k/月", "growth": "+52%", "competition": "low" },
-    { "keyword": "間欠的断食 女性", "volume": "5.6k/月", "growth": "+14%", "competition": "medium" }
+    { "keyword": "PMS 血糖値", "volume": "8.2k/月", "growth": "+47%", "competition": "low" },
+    { "keyword": "ハイパフォーマンスエリア 血糖", "volume": "1.4k/月", "growth": "+86%", "competition": "low" },
+    { "keyword": "夜間低血糖 中途覚醒", "volume": "3.6k/月", "growth": "+22%", "competition": "medium" },
+    { "keyword": "妊活 血糖値", "volume": "2.1k/月", "growth": "+38%", "competition": "low" },
+    { "keyword": "CGM 市民ランナー 補給", "volume": "3.1k/月", "growth": "+24%", "competition": "medium" },
+    { "keyword": "更年期 血糖 メンタル", "volume": "1.8k/月", "growth": "+52%", "competition": "low" }
   ],
   "competitorMoves": [
     {
       "competitor": "Levels",
-      "action": "新キャンペーン開始",
-      "detail": "日本向けに「Glucose-First Living」シリーズをInstagramで展開。初動エンゲージメント率4.8%。",
+      "action": "日本向けキャンペーン強化",
+      "detail": "『Glucose-First Living』シリーズをInstagramで展開。日本のCGMユーザー向けに翻訳コンテンツを増産。SympaFitの『メンタル可視化』との対比軸を明確化しておきたい。",
       "timeAgo": "2日前",
       "impact": "high"
     },
     {
       "competitor": "Nutrisense",
-      "action": "インフルエンサー起用",
-      "detail": "国内市民アスリート3名と提携。CGM装着レビュー動画を3本同時公開。",
+      "action": "市民アスリート起用",
+      "detail": "国内トライアスリート3名と提携、CGM装着レビュー動画を3本同時公開。for Athleteとの直接競合領域に踏み込んできた。",
       "timeAgo": "5日前",
+      "impact": "high"
+    },
+    {
+      "competitor": "Oura Ring",
+      "action": "女性向け訴求シフト",
+      "detail": "月経周期 × 睡眠スコアの連動を前面に。for Femtechとの差別化を『血糖からの予測』に絞り込む好機。",
+      "timeAgo": "1週間前",
       "impact": "medium"
     },
     {
-      "competitor": "Oura",
-      "action": "コンテンツトーン変化",
-      "detail": "女性向けナラティブを強化。月経周期との連動を前面に。",
-      "timeAgo": "1週間前",
+      "competitor": "FreeStyleリブレ (Abbott)",
+      "action": "OTC化の議論再燃",
+      "detail": "OTC販売解禁の業界議論が再加熱。CGMのリーチが広がる前提で、SympaFitの『解析レイヤー』としての立ち位置を強化すべき。",
+      "timeAgo": "3日前",
       "impact": "medium"
     }
   ],
   "todayTasks": [
-    { "id": "pending", "label": "承認待ち", "count": 7, "href": "/review" },
+    { "id": "pending", "label": "承認待ちコンテンツ", "count": 7, "href": "/studio" },
     { "id": "scheduled", "label": "今日の予約投稿", "count": 4, "href": "/calendar" },
-    { "id": "audit", "label": "SEO/GEO監査", "count": 2, "href": "/seo" }
+    { "id": "audit", "label": "SEO/GEO監査の指摘", "count": 2, "href": "/seo" }
   ]
 }

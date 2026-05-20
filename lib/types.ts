@@ -2,7 +2,11 @@ export type Tenant = {
   id: string;
   name: string;
   domain: string;
+  tagline?: string;
   industry: string;
+  founder?: string;
+  research?: string;
+  price?: string;
   channels: Channel[];
 };
 
@@ -12,6 +16,7 @@ export type Channel = {
   persona: string;
   tone: string;
   platforms: string[];
+  pillars?: string[];
 };
 
 export type Briefing = {
@@ -50,15 +55,45 @@ export type TodayTask = {
   href: string;
 };
 
+export type DraftRationale = {
+  knowledge: string;
+  trend: string;
+  strategy: string;
+};
+
+export type DraftScores = {
+  claude: number;
+  gpt4o: number;
+  gemini: number;
+  avg: number;
+};
+
 export type DraftContent = {
   id: string;
   channelId: string;
   channelName: string;
   platform: string;
+  format?: string;
   title: string;
   body: string;
-  score: number;
+  image?: string;
+  scores: DraftScores;
   status: "pending" | "approved" | "scheduled" | "published";
   scheduledAt?: string;
-  imageUrl?: string;
+  rationale?: DraftRationale;
+  tags?: string[];
+  needsReview?: boolean;
+};
+
+export type Persona = {
+  name: string;
+  channel: string;
+  summary: string;
+  pains: string[];
+};
+
+export type CompetitorProfile = {
+  name: string;
+  position: string;
+  diff: string;
 };

@@ -2,28 +2,35 @@
   "id": "sympafit",
   "name": "SympaFit",
   "domain": "sympafit.mediaops.internnect.ai",
-  "industry": "Femtech / Fitness / Metabolic Health",
+  "tagline": "血糖値でメンタルを読む",
+  "industry": "Metabolic Health / Femtech / Sports Performance",
+  "founder": "加治佐 平",
+  "research": "東洋大学 / 東京大学 発の血糖変動 × アドレナリン解析",
+  "price": "月額1,320円(税込) サブスクリプション",
   "channels": [
     {
-      "id": "main",
-      "name": "Main",
-      "persona": "30-45歳・健康意識の高い働く女性",
-      "tone": "サイエンス×やさしさ",
-      "platforms": ["Instagram", "X", "Owned Media"]
-    },
-    {
-      "id": "athletes",
-      "name": "Athletes",
-      "persona": "20-35歳・市民アスリート/トレーニー",
-      "tone": "パフォーマンス重視・データドリブン",
-      "platforms": ["Instagram", "TikTok", "X"]
+      "id": "athlete",
+      "name": "for Athlete",
+      "persona": "20-40代の市民アスリート/本格トレーニー。マラソン・トライアスロン・ウエイト中心",
+      "tone": "サイエンス × データドリブン。専門用語OK、根拠を必ず示す",
+      "platforms": ["Instagram", "TikTok", "X"],
+      "pillars": ["ハイパフォーマンスエリア", "補給戦略", "疲労 / リカバリ", "本番メンタル"]
     },
     {
       "id": "femtech",
-      "name": "Femtech",
-      "persona": "PMS/更年期/妊活に向き合う女性",
-      "tone": "共感・専門性・タブー語らない",
-      "platforms": ["Instagram", "Owned Media"]
+      "name": "for Femtech",
+      "persona": "25-45歳の妊活・PMS・更年期に向き合う女性。働きながら自分の体と向き合う層",
+      "tone": "共感 × 専門性。タブーを避けず、医療的に正確に。やさしい一人称",
+      "platforms": ["Instagram", "Owned Media"],
+      "pillars": ["排卵予測", "PMS対策", "妊活と血糖", "産後うつ予防"]
+    },
+    {
+      "id": "lifestyle",
+      "name": "Lifestyle",
+      "persona": "30-50代の健康意識が高い働く人。睡眠の質、集中力、慢性疲労に課題感",
+      "tone": "サイエンス × やさしさ。日常の選択に落とし込む",
+      "platforms": ["Instagram", "X", "Owned Media"],
+      "pillars": ["睡眠と血糖", "集中力と食事", "ストレスと自律神経", "間食設計"]
     }
   ]
 }

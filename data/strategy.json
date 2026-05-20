@@ -1,0 +1,158 @@
+{
+  "umbrella": {
+    "swot": {
+      "strengths": [
+        "東洋大学/東京大学発の学術ベース — 競合が真似できない研究の深さ",
+        "『血糖からメンタルを読む』という独自の解析レイヤー",
+        "経産省フェムテック支援採択による政策的信頼性",
+        "for Athlete / for Femtech / Lifestyle のマルチセグメント展開"
+      ],
+      "weaknesses": [
+        "ブランド認知度がLevels/Nutrisenseに大きく劣後",
+        "CGMデバイス自体は他社依存(FreeStyleリブレ等)",
+        "国内マラソンコミュニティでの存在感がまだ薄い",
+        "月額1,320円のサブスクが初期コミットの心理障壁"
+      ],
+      "opportunities": [
+        "PMS × 血糖、更年期 × 血糖は競合がほぼ未参入の空白地帯",
+        "CGM OTC化の議論で市場全体が拡大基調",
+        "AI検索(ChatGPT/Perplexity)からの引用獲得余地が大きい",
+        "市民アスリート向けトレラン/トライアスロン市場の伸長"
+      ],
+      "threats": [
+        "Levelsの日本ローカライズ加速(2日前のキャンペーン強化)",
+        "Nutrisenseが国内アスリート市場に直接参入(5日前)",
+        "Oura Ringの女性向け訴求強化(1週間前)",
+        "FreeStyleリブレOTC化でハードウェア体験のフリクション低下"
+      ]
+    },
+    "contentStrategy": {
+      "quarterly": {
+        "label": "2026 Q2",
+        "theme": "『ハイパフォーマンスエリア』『PMSと血糖』を双柱に、SympaFitの独自解析を世に知らせる四半期",
+        "pillars": [
+          { "name": "ハイパフォーマンスエリア", "channel": "for Athlete", "share": "30%", "kpi": "Brand mention +50%, AI search citations +100%" },
+          { "name": "PMS × 血糖", "channel": "for Femtech", "share": "30%", "kpi": "for Femtech 新規アプリDL +80%" },
+          { "name": "睡眠 × 血糖", "channel": "Lifestyle", "share": "20%", "kpi": "SEO 上位10位以内のキーワード 5本獲得" },
+          { "name": "ブランドナラティブ", "channel": "All", "share": "20%", "kpi": "創業ストーリー・研究背景の認知 40%" }
+        ]
+      }
+    },
+    "snsStrategy": [
+      { "platform": "Instagram", "objective": "ブランドストーリーとビジュアルでの信頼構築", "channels": ["for Athlete", "for Femtech", "Lifestyle"], "cadence": "週5-7投稿、Reel重視" },
+      { "platform": "TikTok", "objective": "市民アスリート層の獲得とバイラル", "channels": ["for Athlete"], "cadence": "週3-5投稿、サイエンス解説系のShort" },
+      { "platform": "X", "objective": "サイエンスベースの議論喚起、専門家との接点", "channels": ["for Athlete", "Lifestyle"], "cadence": "週10-15投稿、スレッド + 単発" },
+      { "platform": "Owned Media", "objective": "SEO/GEOでの想起獲得とCV導線", "channels": ["for Femtech", "Lifestyle"], "cadence": "週2記事、2,500字以上" }
+    ],
+    "seoStrategy": {
+      "primaryTargets": [
+        { "keyword": "血糖値 メンタル", "currentRank": 23, "goal": 5 },
+        { "keyword": "PMS 血糖値", "currentRank": 18, "goal": 3 },
+        { "keyword": "ハイパフォーマンスエリア", "currentRank": 7, "goal": 1 },
+        { "keyword": "夜間低血糖 中途覚醒", "currentRank": 14, "goal": 5 }
+      ],
+      "geoTargets": [
+        "ChatGPT で『CGM 日本 アプリ』の引用獲得",
+        "Perplexity で『血糖値 メンタル 関係』のソース掲載",
+        "Gemini で『妊活 血糖』の主要引用源"
+      ]
+    },
+    "alerts": [
+      { "id": "a-001", "severity": "high", "title": "Nutrisense が国内市民アスリートを起用 — for Athlete の競合圧が急上昇", "detail": "5日前にトライアスリート3名と提携、CGMレビュー動画3本同時公開。for Athleteのコア領域に直接侵入。72時間以内に反撃コンテンツを推奨。", "trigger": "Competitor monitoring", "linkedActions": ["『サブ3ランナーの本番補給』TikTok投稿(Studio内)", "『トライアスロンのバイクパート』Instagramカルーセル(Studio内)"], "createdAgo": "5日前", "scope": "athlete" },
+      { "id": "a-002", "severity": "high", "title": "『PMS × 血糖』検索が前週比 +47% — 空白地帯の取得チャンス", "detail": "競合密度: 低。SympaFit for Femtechの差別化軸が刺さる検索急上昇。今週中に最低2本のコンテンツ投下を推奨。", "trigger": "Trend Radar", "linkedActions": ["『PMS期、甘いものが止まらない理由』Reel(Studio内)", "『妊活中の朝食』ストーリーズ(Studio内)"], "createdAgo": "本日", "scope": "femtech" },
+      { "id": "a-003", "severity": "medium", "title": "Levels 日本キャンペーン強化 — Share of Voice への影響を監視", "detail": "『Glucose-First Living』翻訳コンテンツの増産。SympaFitのSOV(8.4%)が今週後半にプレッシャー受ける可能性。", "trigger": "Competitor monitoring", "linkedActions": ["『血糖からメンタルを読む』ブランドナラティブ強化"], "createdAgo": "2日前", "scope": "umbrella" },
+      { "id": "a-004", "severity": "medium", "title": "AI検索引用数 +18 — Perplexity 経由の伸びを取りこぼさない", "detail": "Perplexityで『血糖 メンタル 関係』のソースとして引用増。記事のメタ最適化で取れる余地あり。", "trigger": "SEO/GEO Audit", "linkedActions": ["対象記事のFAQ構造化マークアップ追加"], "createdAgo": "本日", "scope": "umbrella" },
+      { "id": "a-005", "severity": "low", "title": "FreeStyleリブレOTC化議論 — 中長期ポジショニング再確認", "detail": "ハードウェア体験のフリクション低下が予想される。SympaFitは『解析レイヤー』としての立ち位置をより明確に。", "trigger": "Industry signal", "linkedActions": ["Brand narrative update at Knowledge"], "createdAgo": "3日前", "scope": "umbrella" },
+      { "id": "a-006", "severity": "medium", "title": "Oura Ring の女性向け訴求強化 — for Femtech 直接競合化", "detail": "月経周期 × 睡眠スコアの訴求を全面に。SympaFitは『血糖からの予測』に絞った差別化メッセージを強化すべき。", "trigger": "Competitor monitoring", "linkedActions": ["『血糖からの排卵予測』ブランドナラティブ"], "createdAgo": "1週間前", "scope": "femtech" },
+      { "id": "a-007", "severity": "medium", "title": "『夜間低血糖 中途覚醒』検索 +22% — Lifestyle SEO 取得チャンス", "detail": "競合密度は中程度だが、独自解析を持つSympaFitなら3位以内を狙える。今週中に高品質SEO記事1本投下を推奨。", "trigger": "Trend Radar", "linkedActions": ["『夜中3時に目が覚める原因』SEO記事(Studio内)"], "createdAgo": "本日", "scope": "lifestyle" }
+    ]
+  },
+  "byChannel": {
+    "athlete": {
+      "positioning": "市民アスリートのための『ハイパフォーマンスエリア管理ツール』。Levels/Nutrisenseの『ウェルネスCGM』とは違い、本番でのパフォーマンスを血糖×アドレナリンで最大化する解析レイヤー。",
+      "audience": {
+        "primary": "サブ3を狙うランナー、トライアスリート、ボディビル/フィジーク選手",
+        "secondary": "ジム週4以上のトレーニー、CGM経験者",
+        "size": "国内推定 12万人(競技志向のCGM潜在ユーザー)"
+      },
+      "competitors": [
+        { "name": "Nutrisense", "threat": "high", "diff": "Nutrisenseは栄養士コーチング前提でコスト高。SympaFitはAI解析で1/3の価格" },
+        { "name": "Levels", "threat": "medium", "diff": "Levelsはウェルネス文脈中心。本番パフォーマンス領域はSympaFitが先行可能" },
+        { "name": "Whoop", "threat": "low", "diff": "Whoopは心拍/リカバリ。代謝データのSympaFitとは補完関係" }
+      ],
+      "pillars": [
+        { "name": "ハイパフォーマンスエリア", "share": "35%", "kpi": "TikTok平均再生 5万 → 12万" },
+        { "name": "補給戦略", "share": "25%", "kpi": "Save数 月1,000 → 3,000" },
+        { "name": "疲労 / リカバリ", "share": "20%", "kpi": "新規DL +60%" },
+        { "name": "本番メンタル", "share": "20%", "kpi": "Brand mentions +80%" }
+      ],
+      "snsStrategy": [
+        { "platform": "TikTok", "objective": "市民アスリート層への到達拡大", "cadence": "週4本、サイエンス解説系のShort 45-60秒" },
+        { "platform": "Instagram", "objective": "実走/実トレデータの可視化と信頼構築", "cadence": "週3本、Reel + カルーセル" },
+        { "platform": "X", "objective": "ランニング/トライアスロンコミュニティとの対話", "cadence": "週5-7投稿" }
+      ],
+      "kpis": [
+        { "label": "新規DL (月)", "current": "1,420", "goal": "2,500" },
+        { "label": "アクティブ率 (30d)", "current": "68%", "goal": "75%" },
+        { "label": "TikTokフォロワー", "current": "8,200", "goal": "20,000" }
+      ]
+    },
+    "femtech": {
+      "positioning": "妊活・PMS・更年期に向き合う女性のための『血糖からホルモン変動を読む』ツール。Oura Ringの『外形データ』(心拍/体温)と違い、代謝の根幹データで予測精度を出す。経産省フェムテック支援採択の信頼性。",
+      "audience": {
+        "primary": "妊活2年目前後の30代女性、PMS症状重めの20-40代",
+        "secondary": "更年期初期(45-55)、産後ケアを意識する女性",
+        "size": "国内推定 80万人(妊活/PMS/更年期で何らかの行動を起こしている女性)"
+      },
+      "competitors": [
+        { "name": "Oura Ring", "threat": "high", "diff": "Ouraは心拍/体温。SympaFitは血糖という代謝の根幹データで予測精度に差" },
+        { "name": "Ava Bracelet", "threat": "medium", "diff": "Avaは生理学的指標複合。SympaFitは血糖単一指標で深く" },
+        { "name": "ルナルナ / Flo", "threat": "low", "diff": "それらはセルフレポート中心。SympaFitは計測ベース" }
+      ],
+      "pillars": [
+        { "name": "PMS × 血糖", "share": "35%", "kpi": "Reel平均再生 2万 → 8万" },
+        { "name": "妊活と血糖", "share": "30%", "kpi": "for Femtech新規DL +120%" },
+        { "name": "排卵予測", "share": "20%", "kpi": "ブログSEO 上位10位以内 3本" },
+        { "name": "産後うつ予防", "share": "15%", "kpi": "Owned Media PV 月3万" }
+      ],
+      "snsStrategy": [
+        { "platform": "Instagram", "objective": "共感+専門性で信頼構築、Save重視", "cadence": "週5本、Reel + ストーリーズ + カルーセル" },
+        { "platform": "Owned Media", "objective": "妊活/PMS関連の長尾SEOを獲りに行く", "cadence": "週2記事、2,500字以上" }
+      ],
+      "kpis": [
+        { "label": "新規DL (月)", "current": "890", "goal": "2,000" },
+        { "label": "Instagram保存数 (月)", "current": "3,200", "goal": "10,000" },
+        { "label": "オウンドメディアPV (月)", "current": "18,500", "goal": "30,000" }
+      ]
+    },
+    "lifestyle": {
+      "positioning": "働く人のための『血糖を物差しに自分の体を理解する』入口プロダクト。Levels/Whoopの専門性をやさしく日常に翻訳する。Athleteと違い、生活の集中力・睡眠・気分にフォーカス。",
+      "audience": {
+        "primary": "30-50代の働く人(ビジネスパーソン)、中途覚醒/午後の眠気が悩み",
+        "secondary": "ダイエット意識のある人、健康意識の高い管理職",
+        "size": "国内推定 350万人(ウェルネス志向の働く人)"
+      },
+      "competitors": [
+        { "name": "Levels", "threat": "high", "diff": "Levelsは英語圏のウェルネス文化。SympaFitは日本の働き方/食文化に最適化" },
+        { "name": "AuraGlow", "threat": "low", "diff": "AuraGlowは栄養素中心。SympaFitは血糖変動という結果指標" },
+        { "name": "Apple Health Glucose", "threat": "medium", "diff": "Apple Healthは記録のみ。SympaFitは解析と提案" }
+      ],
+      "pillars": [
+        { "name": "睡眠と血糖", "share": "30%", "kpi": "SEO上位10位以内 5本獲得" },
+        { "name": "集中力と食事", "share": "25%", "kpi": "Xインプレッション +200%" },
+        { "name": "ストレスと自律神経", "share": "25%", "kpi": "Instagram保存数 +150%" },
+        { "name": "間食設計", "share": "20%", "kpi": "新規DL +50%" }
+      ],
+      "snsStrategy": [
+        { "platform": "Instagram", "objective": "やさしいビジュアルで一般層の入口に", "cadence": "週5本、Reel + カルーセル" },
+        { "platform": "X", "objective": "サイエンス系議論への露出、引用獲得", "cadence": "週10投稿、スレッド3本" },
+        { "platform": "Owned Media", "objective": "SEO/GEO主力。3,000字以上の科学解説", "cadence": "週2記事" }
+      ],
+      "kpis": [
+        { "label": "新規DL (月)", "current": "2,800", "goal": "4,500" },
+        { "label": "オウンドメディアPV (月)", "current": "42,000", "goal": "80,000" },
+        { "label": "AI検索引用数 (月)", "current": "28", "goal": "80" }
+      ]
+    }
+  }
+}

@@ -2,55 +2,161 @@
   {
     "id": "d-001",
     "channelId": "femtech",
-    "channelName": "Femtech",
+    "channelName": "for Femtech",
     "platform": "Instagram",
-    "title": "PMSの食欲爆発、血糖値で説明できる話",
-    "body": "黄体期に甘いものが止まらない理由、ホルモンだけじゃなくて血糖の乱高下が絡んでます。CGMで測ると、同じおにぎりでも生理前は変動が1.4倍に...",
-    "score": 96,
+    "format": "Reel · 60秒",
+    "title": "PMS期、甘いものが止まらない本当の理由",
+    "body": "黄体期に甘いものが欲しくなるのはホルモンのせい——だけじゃない。黄体期はインスリン抵抗性が高まり、同じおにぎりでも血糖変動が約1.4倍に。乱高下が次の食欲を呼ぶループ。SympaFit for Femtechで実測した3人のグラフを並べると、パターンが見える。",
+    "image": "/mock/draft-femtech-pms.png",
+    "scores": { "claude": 96, "gpt4o": 95, "gemini": 97, "avg": 96 },
     "status": "pending",
-    "scheduledAt": "2026-05-21T09:00:00+09:00"
+    "scheduledAt": "2026-05-21T09:00:00+09:00",
+    "rationale": {
+      "knowledge": "女性ホルモンと血糖感受性 — 黄体期はインスリン抵抗性が高まる",
+      "trend": "『PMS 血糖値』が前週比+47%、競合密度は低い",
+      "strategy": "for Femtech ピラー『PMS対策』×『妊活と血糖』の交差点を取りに行く"
+    },
+    "tags": ["PMS", "黄体期", "血糖変動"]
   },
   {
     "id": "d-002",
-    "channelId": "athletes",
-    "channelName": "Athletes",
+    "channelId": "athlete",
+    "channelName": "for Athlete",
     "platform": "TikTok",
-    "title": "ランナーがCGMをつけて発見した『落とし穴補給食』TOP3",
-    "body": "市民アスリート向け。ジェルやバナナ、定番補給食の血糖カーブを実測。意外な勝者は...",
-    "score": 92,
+    "format": "Short · 45秒",
+    "title": "サブ3ランナーの『本番補給』を血糖で解剖した",
+    "body": "30km地点でハイパフォーマンスエリアを外すと、ペースは平均13秒/km落ちる。実測データ。ジェル vs バナナ vs 羊羹、本番でハイパフォーマンスエリアに入りやすい補給はどれか。市民ランナー拓海さんの実走データから。",
+    "image": "/mock/draft-athlete-marathon.png",
+    "scores": { "claude": 94, "gpt4o": 93, "gemini": 92, "avg": 93 },
     "status": "pending",
-    "scheduledAt": "2026-05-21T18:00:00+09:00"
+    "scheduledAt": "2026-05-21T18:00:00+09:00",
+    "rationale": {
+      "knowledge": "ハイパフォーマンスエリア — 個人最適化された血糖値域。外すと判断/反応/持続が低下",
+      "trend": "『ハイパフォーマンスエリア 血糖』が前週比+86%(急上昇)",
+      "strategy": "for Athlete ピラー『補給戦略』×『本番メンタル』。Nutrisense対抗の差別化"
+    },
+    "tags": ["マラソン", "補給戦略", "ハイパフォーマンスエリア"]
   },
   {
     "id": "d-003",
-    "channelId": "main",
-    "channelName": "Main",
-    "platform": "X",
-    "title": "『朝食を抜く』が向く人/向かない人",
-    "body": "間欠的断食、女性のホルモンサイクルとの相性。一律推奨できない理由を3行で。",
-    "score": 98,
-    "status": "approved",
-    "scheduledAt": "2026-05-20T20:00:00+09:00"
+    "channelId": "lifestyle",
+    "channelName": "Lifestyle",
+    "platform": "Owned Media",
+    "format": "SEO記事 · 2,800字",
+    "title": "夜中3時に目が覚める原因は『夜間低血糖』かもしれない",
+    "body": "中途覚醒の科学的メカニズム。寝る直前の糖質摂取がインスリン分泌を促し、深夜に血糖が下がりすぎると、体は交感神経を覚醒させて血糖を上げにいく——これが3時の目覚めの正体。CGMで実測した3パターンと、夜の食事の組み立て方。",
+    "image": "/mock/draft-lifestyle-sleep.png",
+    "scores": { "claude": 91, "gpt4o": 90, "gemini": 88, "avg": 90 },
+    "status": "pending",
+    "scheduledAt": "2026-05-22T07:00:00+09:00",
+    "rationale": {
+      "knowledge": "夜間低血糖と中途覚醒 — 寝る直前の食事による夜間血糖低下が交感神経覚醒",
+      "trend": "『夜間低血糖 中途覚醒』が前週比+22%、SEOチャンスあり",
+      "strategy": "Lifestyle ピラー『睡眠と血糖』×『ストレスと自律神経』"
+    },
+    "tags": ["睡眠", "夜間低血糖", "自律神経"],
+    "needsReview": true
   },
   {
     "id": "d-004",
     "channelId": "femtech",
-    "channelName": "Femtech",
+    "channelName": "for Femtech",
     "platform": "Owned Media",
+    "format": "SEO記事 · 2,500字",
     "title": "更年期と血糖変動 — 見落とされてきた関係",
-    "body": "2,500字のSEO記事ドラフト。エストロゲン低下とインスリン抵抗性の関係から、食事戦略まで網羅。",
-    "score": 89,
-    "status": "pending"
+    "body": "エストロゲン低下とインスリン抵抗性は連動する。だから更年期に体重が増え、メンタルが不安定になる。これまで『年齢のせい』で片付けられてきた症状を、血糖の物差しで説明し直す。SympaFit for Femtechユーザーの統計と、生活設計のヒント。",
+    "image": "/mock/draft-femtech-menopause.png",
+    "scores": { "claude": 92, "gpt4o": 89, "gemini": 91, "avg": 91 },
+    "status": "pending",
+    "scheduledAt": "2026-05-23T10:00:00+09:00",
+    "rationale": {
+      "knowledge": "女性ホルモンと血糖感受性 — エストロゲン低下とインスリン抵抗性",
+      "trend": "『更年期 血糖 メンタル』が前週比+52%、競合密度: 低",
+      "strategy": "for Femtech 新規ピラー候補。男性向けが多い更年期市場で女性主語の解像度"
+    },
+    "tags": ["更年期", "エストロゲン", "メンタル"]
   },
   {
     "id": "d-005",
-    "channelId": "main",
-    "channelName": "Main",
+    "channelId": "athlete",
+    "channelName": "for Athlete",
     "platform": "Instagram",
+    "format": "カルーセル · 7枚",
+    "title": "トライアスロンのバイクパート、血糖の落とし穴",
+    "body": "スイム→バイク移行時のアドレナリンスパイクと、その後の血糖クラッシュ。レース中盤の集中力低下が説明できる。市民トライアスリート3名のCGMデータから見えた共通パターン。",
+    "image": "/mock/draft-athlete-tri.png",
+    "scores": { "claude": 97, "gpt4o": 96, "gemini": 95, "avg": 96 },
+    "status": "pending",
+    "scheduledAt": "2026-05-24T19:00:00+09:00",
+    "rationale": {
+      "knowledge": "血糖変動とアドレナリン分泌の相関",
+      "trend": "Nutrisenseが国内トライアスリート起用で先行、対抗策必要",
+      "strategy": "for Athlete『本番メンタル』×『疲労/リカバリ』。競合への先回り"
+    },
+    "tags": ["トライアスロン", "アドレナリン", "本番"]
+  },
+  {
+    "id": "d-006",
+    "channelId": "lifestyle",
+    "channelName": "Lifestyle",
+    "platform": "X",
+    "format": "スレッド · 6投稿",
+    "title": "『午後の集中力崩壊』を血糖値で説明する",
+    "body": "ランチ後の眠気の正体は単なる『血糖値スパイク』じゃない。スパイク→急降下のセットがアドレナリンを呼び、その揺り戻しで眠気が来る。働く人向けに、ランチの組み立て3パターンを実測値で提示。",
+    "image": "/mock/draft-lifestyle-lunch.png",
+    "scores": { "claude": 95, "gpt4o": 94, "gemini": 96, "avg": 95 },
+    "status": "pending",
+    "scheduledAt": "2026-05-25T12:00:00+09:00",
+    "rationale": {
+      "knowledge": "血糖スパイク後のアドレナリン反応 — 加治佐研究室",
+      "trend": "ビジネスパーソン層の集中力ハック関心が高い",
+      "strategy": "Lifestyle 入口ピラー『集中力と食事』"
+    },
+    "tags": ["集中力", "ランチ", "血糖スパイク"]
+  },
+  {
+    "id": "d-007",
+    "channelId": "femtech",
+    "channelName": "for Femtech",
+    "platform": "Instagram",
+    "format": "ストーリーズ · 5枚",
+    "title": "妊活中の朝食、血糖でやることが見えてくる",
+    "body": "妊活期の食事は『何を食べるか』より『どう血糖を動かすか』。排卵期は特に。SympaFit for Femtechユーザー麻衣さん(31)の朝食ビフォーアフター。",
+    "image": "/mock/draft-femtech-breakfast.png",
+    "scores": { "claude": 93, "gpt4o": 94, "gemini": 92, "avg": 93 },
+    "status": "pending",
+    "scheduledAt": "2026-05-26T08:00:00+09:00",
+    "rationale": {
+      "knowledge": "妊活サポート — 経産省フェムテック支援採択の文脈",
+      "trend": "『妊活 血糖値』が前週比+38%、競合密度: 低",
+      "strategy": "for Femtech ピラー『妊活と血糖』。実ユーザーストーリーで信頼性"
+    },
+    "tags": ["妊活", "朝食", "排卵期"]
+  },
+  {
+    "id": "d-101",
+    "channelId": "lifestyle",
+    "channelName": "Lifestyle",
+    "platform": "Instagram",
+    "format": "Reel · 30秒",
     "title": "サイエンスでやさしく — 5月の血糖リテラシー1問1答",
-    "body": "今月いただいた質問から5つピックアップ。『運動後に血糖が上がるのはなぜ?』ほか。",
-    "score": 94,
+    "body": "今月いただいた質問から5つ。『運動後に血糖が上がるのはなぜ?』『コーヒーで血糖は動く?』『フルーツは血糖に悪い?』",
+    "scores": { "claude": 96, "gpt4o": 95, "gemini": 96, "avg": 96 },
     "status": "scheduled",
-    "scheduledAt": "2026-05-22T12:00:00+09:00"
+    "scheduledAt": "2026-05-22T12:00:00+09:00",
+    "tags": ["Q&A", "血糖リテラシー"]
+  },
+  {
+    "id": "d-102",
+    "channelId": "athlete",
+    "channelName": "for Athlete",
+    "platform": "X",
+    "format": "単発投稿",
+    "title": "『朝食を抜く』が向くアスリート、向かないアスリート",
+    "body": "間欠的断食はトレーニングの種類とホルモンサイクルで効果が逆転する。3行で。",
+    "scores": { "claude": 98, "gpt4o": 97, "gemini": 98, "avg": 98 },
+    "status": "approved",
+    "scheduledAt": "2026-05-20T20:00:00+09:00",
+    "tags": ["間欠的断食", "アスリート"]
   }
 ]
