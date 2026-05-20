@@ -1,0 +1,56 @@
+[
+  {
+    "id": "d-001",
+    "channelId": "femtech",
+    "channelName": "Femtech",
+    "platform": "Instagram",
+    "title": "PMSの食欲爆発、血糖値で説明できる話",
+    "body": "黄体期に甘いものが止まらない理由、ホルモンだけじゃなくて血糖の乱高下が絡んでます。CGMで測ると、同じおにぎりでも生理前は変動が1.4倍に...",
+    "score": 96,
+    "status": "pending",
+    "scheduledAt": "2026-05-21T09:00:00+09:00"
+  },
+  {
+    "id": "d-002",
+    "channelId": "athletes",
+    "channelName": "Athletes",
+    "platform": "TikTok",
+    "title": "ランナーがCGMをつけて発見した『落とし穴補給食』TOP3",
+    "body": "市民アスリート向け。ジェルやバナナ、定番補給食の血糖カーブを実測。意外な勝者は...",
+    "score": 92,
+    "status": "pending",
+    "scheduledAt": "2026-05-21T18:00:00+09:00"
+  },
+  {
+    "id": "d-003",
+    "channelId": "main",
+    "channelName": "Main",
+    "platform": "X",
+    "title": "『朝食を抜く』が向く人/向かない人",
+    "body": "間欠的断食、女性のホルモンサイクルとの相性。一律推奨できない理由を3行で。",
+    "score": 98,
+    "status": "approved",
+    "scheduledAt": "2026-05-20T20:00:00+09:00"
+  },
+  {
+    "id": "d-004",
+    "channelId": "femtech",
+    "channelName": "Femtech",
+    "platform": "Owned Media",
+    "title": "更年期と血糖変動 — 見落とされてきた関係",
+    "body": "2,500字のSEO記事ドラフト。エストロゲン低下とインスリン抵抗性の関係から、食事戦略まで網羅。",
+    "score": 89,
+    "status": "pending"
+  },
+  {
+    "id": "d-005",
+    "channelId": "main",
+    "channelName": "Main",
+    "platform": "Instagram",
+    "title": "サイエンスでやさしく — 5月の血糖リテラシー1問1答",
+    "body": "今月いただいた質問から5つピックアップ。『運動後に血糖が上がるのはなぜ?』ほか。",
+    "score": 94,
+    "status": "scheduled",
+    "scheduledAt": "2026-05-22T12:00:00+09:00"
+  }
+]

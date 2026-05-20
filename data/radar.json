@@ -1,0 +1,53 @@
+{
+  "briefing": {
+    "weekLabel": "Week 21 · 2026",
+    "headline": "「血糖値スパイク」関連の検索が前週比+38%。フェムテック文脈との接続で先行余地あり。",
+    "summary": "Levels社が国内認知を急速に伸ばしている一方、女性ホルモン×血糖値の切り口は依然として空白地帯。今週はFemtechチャンネルで仮説検証コンテンツを2本走らせ、反応次第でMainへ展開を推奨。",
+    "recommendedActions": [
+      "Femtechチャンネルで「PMSと血糖値」の解説リール(60秒)を試験投稿",
+      "Athletesチャンネルで「トレ前後のCGMデータ解説」連載をスタート",
+      "オウンドメディアに『更年期×血糖変動』のSEO記事(2,500字)を投下"
+    ]
+  },
+  "kpis": [
+    { "label": "Brand mentions", "value": "1,847", "delta": "+12%", "trend": "up" },
+    { "label": "Share of voice", "value": "8.4%", "delta": "+1.2pt", "trend": "up" },
+    { "label": "SEO avg. rank", "value": "14.2", "delta": "-2.1", "trend": "up" },
+    { "label": "AI search citations", "value": "62", "delta": "+18", "trend": "up" }
+  ],
+  "trends": [
+    { "keyword": "血糖値スパイク 女性", "volume": "8.2k/月", "growth": "+38%", "competition": "low" },
+    { "keyword": "CGM 市民ランナー", "volume": "3.1k/月", "growth": "+24%", "competition": "medium" },
+    { "keyword": "PMS 食事", "volume": "12.4k/月", "growth": "+9%", "competition": "high" },
+    { "keyword": "更年期 血糖", "volume": "1.8k/月", "growth": "+52%", "competition": "low" },
+    { "keyword": "間欠的断食 女性", "volume": "5.6k/月", "growth": "+14%", "competition": "medium" }
+  ],
+  "competitorMoves": [
+    {
+      "competitor": "Levels",
+      "action": "新キャンペーン開始",
+      "detail": "日本向けに「Glucose-First Living」シリーズをInstagramで展開。初動エンゲージメント率4.8%。",
+      "timeAgo": "2日前",
+      "impact": "high"
+    },
+    {
+      "competitor": "Nutrisense",
+      "action": "インフルエンサー起用",
+      "detail": "国内市民アスリート3名と提携。CGM装着レビュー動画を3本同時公開。",
+      "timeAgo": "5日前",
+      "impact": "medium"
+    },
+    {
+      "competitor": "Oura",
+      "action": "コンテンツトーン変化",
+      "detail": "女性向けナラティブを強化。月経周期との連動を前面に。",
+      "timeAgo": "1週間前",
+      "impact": "medium"
+    }
+  ],
+  "todayTasks": [
+    { "id": "pending", "label": "承認待ち", "count": 7, "href": "/review" },
+    { "id": "scheduled", "label": "今日の予約投稿", "count": 4, "href": "/calendar" },
+    { "id": "audit", "label": "SEO/GEO監査", "count": 2, "href": "/seo" }
+  ]
+}
