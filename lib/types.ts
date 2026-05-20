@@ -83,6 +83,7 @@ export type DraftContent = {
   rationale?: DraftRationale;
   tags?: string[];
   needsReview?: boolean;
+  inlineImages?: { caption: string }[];
 };
 
 export type Persona = {
